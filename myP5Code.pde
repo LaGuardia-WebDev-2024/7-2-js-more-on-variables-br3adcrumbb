@@ -17,13 +17,19 @@ void draw(){
   fill(30, 204, 91); // a nice froggy green!
 
   ellipse(x, y, 200, 100); // face
-  ellipse(x - 50, y - 50, 40, 40); // left eye socket
-  ellipse(x + 50, y - 50, 40, 40); // right eye socket
+  ellipse(x - 50, y - 50, 40, 60); // left eye socket
+  ellipse(x + 50, y - 50, 40, 60); // right eye socket
 
   fill(255, 255, 255); // for the whites of the eyes!
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
   
+  fill(23, 17, 18);
+  ellipse(x + 50, y - 50, 20, 20); // iris
+   ellipse(x - 50, y - 50, 20, 20) //iris
+   
+  fill(219, 4, 22);
+ellipse(x + 5, y +20, 40, 60);//mouth
 
 }
 
